@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/15906b00-81e1-459c-a9a1-4f5989f31aa4/resourceGroups/webcam-face-recognition/providers/Microsoft.Web/sites/webcam-face-detect",
+    "appService.deploySubpath": "dist\\webcam-facial-recognition"
+}

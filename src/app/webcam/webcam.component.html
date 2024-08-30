@@ -1,0 +1,26 @@
+<h1>Displaying Webcam Stream</h1>
+<div id="container">
+  <video #videoElement autoplay="true" id="videoElement"></video>
+  <canvas id="canvas" width = "600px" height = "400px"></canvas>
+</div>
+<div class="controls">
+  <button (click)="startWebcam()">Start Webcam</button>
+  <button (click)="stopWebcam()">Stop Webcam</button>
+  <button (click)="captureImage()">{{ imageCaptured ? 'Re-capture Image' : 'Capture Image' }}</button>
+</div>
+<!-- <div id="snapshot">
+  <canvas id="canvas"></canvas>
+  <img id="capturedImage" alt="Captured Image" />
+</div> -->
+<!-- <div id="detectedFaces">
+  <h2>Detected Faces</h2>
+  <canvas id="faceCanvas"></canvas>
+</div> -->
+<div id="snapshot">
+  <canvas #canvas></canvas>
+  <img #capturedImage alt="Captured Image" />
+</div>
+<!-- <div id="detectedFaces">
+  <h2>Detected Faces</h2>
+  <canvas #faceCanvas></canvas>
+</div> -->
